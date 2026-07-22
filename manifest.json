@@ -1,0 +1,21 @@
+{
+  "name": "Guia Cultural do Ceará",
+  "short_name": "Guia Ceará",
+  "description": "Fotografia, histórias e agenda cultural do Ceará em um acervo gratuito.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F7F1E7",
+  "theme_color": "#1E604C",
+  "categories": ["culture", "travel", "education"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
