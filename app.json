@@ -9,6 +9,9 @@
     "splash": {
       "backgroundColor": "#F7F1E7"
     },
+    "experiments": {
+      "baseUrl": "/app_Guia_Cultural_do_Cear-"
+    },
     "android": {
       "package": "br.com.guiaculturaldoceara.app",
       "versionCode": 1,
@@ -23,6 +26,7 @@
     },
     "web": {
       "bundler": "metro",
+      "output": "single",
       "name": "Guia Cultural do Ceará",
       "shortName": "Guia Ceará",
       "lang": "pt-BR",
