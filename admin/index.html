@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#163f34" />
+    <title>Administração — Guia Cultural do Ceará</title>
+    <link rel="stylesheet" href="/admin/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="login-view" class="login-shell">
+        <div class="login-art" aria-hidden="true">
+          <span class="brand">GUIA CULTURAL<br />DO CEARÁ</span>
+          <div><p class="kicker">ACESSO RESTRITO</p><h1>Memórias cuidadas por quem as registra.</h1></div>
+        </div>
+        <form id="login-form" class="login-card">
+          <p class="kicker">PAINEL DO FOTÓGRAFO</p>
+          <h2>Entrar</h2>
+          <p class="muted">Use suas credenciais para gerenciar o acervo.</p>
+          <label>E-mail<input id="email" name="email" type="email" autocomplete="username" required /></label>
+          <label>Senha<input id="password" name="password" type="password" autocomplete="current-password" required /></label>
+          <p id="login-error" class="error" role="alert"></p>
+          <button type="submit" class="primary">Acessar painel <span>→</span></button>
+          <p class="security">🔒 Sessão protegida por token JWT com expiração.</p>
+        </form>
+      </section>
+
+      <section id="dashboard-view" class="dashboard" hidden>
+        <aside>
+          <div class="admin-brand"><span class="brand-icon">☀</span><span>GUIA CULTURAL<br />DO CEARÁ</span></div>
+          <nav id="content-nav">
+            <button data-type="places" class="nav-button active">▣ Territórios</button>
+            <button data-type="stories" class="nav-button">▶ Histórias e vídeos</button>
+            <button data-type="events" class="nav-button">□ Agenda cultural</button>
+          </nav>
+          <button id="logout" class="logout">Sair da conta</button>
+        </aside>
+        <div class="workspace">
+          <header><div><p class="kicker">GESTÃO EDITORIAL</p><h1 id="page-title">Territórios</h1></div><div class="user"><span class="avatar">F</span><span><strong>Fotógrafo</strong><small id="user-email"></small></span></div></header>
+          <div id="flash" class="flash" hidden></div>
+          <div class="toolbar"><p id="content-count">0 conteúdos publicados</p><button id="open-form" class="primary compact">+ Nova publicação</button></div>
+          <section id="editor" class="editor" hidden>
+            <div class="editor-header"><div><p class="kicker">NOVA PUBLICAÇÃO</p><h2 id="form-title">Novo território</h2></div><button id="close-form" class="icon-button" aria-label="Fechar">×</button></div>
+            <form id="content-form"><div id="form-fields" class="form-grid"></div><div class="actions"><button type="button" id="cancel-form" class="secondary">Cancelar</button><button type="submit" class="primary">Publicar conteúdo</button></div></form>
+          </section>
+          <section id="content-list" class="cards" aria-live="polite"></section>
+        </div>
+      </section>
+    </main>
+    <script src="/admin/admin.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+dist/
+npm-debug.log*
+.DS_Store
+expo-web.log
+expo-web-error.log
+.env
+server/uploads/*
+!server/uploads/.gitkeep

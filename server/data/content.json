@@ -1,0 +1,55 @@
+{
+  "places": [
+    {
+      "id": "canoa-quebrada",
+      "name": "Canoa Quebrada",
+      "region": "Litoral Leste",
+      "city": "Aracati",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85",
+      "description": "Falésias, jangadas e histórias construídas entre o mar e a vila.",
+      "longDescription": "Entre falésias avermelhadas e o Atlântico, Canoa Quebrada preserva modos de vida ligados à pesca, ao artesanato e à memória de uma vila que acolhe o mundo sem perder o sotaque cearense.",
+      "tags": ["Praia", "Artesanato", "Memória"],
+      "photos": 24
+    },
+    {
+      "id": "fortaleza",
+      "name": "Fortaleza",
+      "region": "Capital",
+      "city": "Fortaleza",
+      "image": "https://images.unsplash.com/photo-1596395819057-e37f55a8516b?auto=format&fit=crop&w=1200&q=85",
+      "description": "Patrimônio, música, arte urbana e encontros à beira-mar.",
+      "longDescription": "A capital reúne muitas camadas do Ceará: mercados populares, centros culturais, ocupações artísticas, festas tradicionais e uma produção contemporânea que se renova todos os dias.",
+      "tags": ["Música", "Patrimônio", "Arte"],
+      "photos": 31
+    }
+  ],
+  "stories": [
+    {
+      "id": "maria-rendeira",
+      "person": "Dona Maria",
+      "role": "Rendeira há 48 anos",
+      "place": "Canoa Quebrada",
+      "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=900&q=85",
+      "excerpt": "Cada ponto da renda guarda o tempo, a conversa e a memória de quem ensinou.",
+      "text": "Dona Maria aprendeu a fazer renda ainda menina, observando as mãos da mãe. Hoje, reúne vizinhas na varanda de casa para trabalhar, conversar e ensinar às mais jovens um ofício que atravessa gerações.",
+      "readTime": "4 min",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "videoCaption": "Vídeo demonstrativo com áudio para validar o player."
+    },
+    {
+      "id": "seu-raimundo",
+      "person": "Seu Raimundo",
+      "role": "Mestre da cultura popular",
+      "place": "Juazeiro do Norte",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85",
+      "excerpt": "O cordel chega primeiro pelo ouvido; depois a palavra encontra o papel.",
+      "text": "Entre versos, matrizes e histórias de feira, Seu Raimundo mantém vivo um repertório aprendido com mestres do Cariri.",
+      "readTime": "5 min"
+    }
+  ],
+  "events": [
+    { "id": "estacao", "day": "24", "month": "JUL", "title": "Sons do Ceará", "place": "Estação das Artes", "city": "Fortaleza", "time": "19:00", "category": "Música", "free": true },
+    { "id": "feira", "day": "27", "month": "JUL", "title": "Feira de Artes e Saberes", "place": "Praça da Matriz", "city": "Guaramiranga", "time": "09:00", "category": "Cultura popular", "free": true },
+    { "id": "cordel", "day": "02", "month": "AGO", "title": "Encontro de Cordelistas", "place": "Centro Cultural do Cariri", "city": "Crato", "time": "16:00", "category": "Literatura", "free": true }
+  ]
+}

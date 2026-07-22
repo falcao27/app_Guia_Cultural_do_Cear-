@@ -1,0 +1,36 @@
+{
+  "name": "guia-cultural-do-ceara",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "api": "node server/index.js",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "expo": "~54.0.0",
+    "expo-image-picker": "~17.0.8",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-status-bar": "~3.0.8",
+    "expo-video": "~3.0.14",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "react": "19.1.0",
+    "react-dom": "^19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "babel-preset-expo": "~54.0.9"
+  }
+}

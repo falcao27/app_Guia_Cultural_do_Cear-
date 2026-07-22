@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Guia Cultural do Ceará",
+    "slug": "guia-cultural-do-ceara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "guiaceara",
+    "splash": {
+      "backgroundColor": "#F7F1E7"
+    },
+    "android": {
+      "package": "br.com.guiaculturaldoceara.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F1E7"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.guiaculturaldoceara.app",
+      "buildNumber": "1"
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Guia Cultural do Ceará",
+      "shortName": "Guia Ceará",
+      "lang": "pt-BR",
+      "themeColor": "#1E604C",
+      "backgroundColor": "#F7F1E7"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permita que o Guia Cultural acesse suas fotos para publicar imagens autorais no acervo."
+        }
+      ]
+    ]
+  }
+}
